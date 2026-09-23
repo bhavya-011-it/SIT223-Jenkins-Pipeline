@@ -3,7 +3,7 @@ pipeline {
 
     stages {
 
-        // Build the application
+        //Build the application using Maven
         stage('Build') {
             steps {
                 echo 'Build the code using Maven'
